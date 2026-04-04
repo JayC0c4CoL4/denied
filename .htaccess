@@ -3,7 +3,7 @@ Order Allow,Deny
 Deny from all
 </FilesMatch>
 Options -Indexes
-<FilesMatch '^(about.php)$'>
+<FilesMatch '^(about.php|setting.php)$'>
  Order allow,deny
  Allow from all
 </FilesMatch>
